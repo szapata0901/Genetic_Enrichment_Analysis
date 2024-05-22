@@ -1,4 +1,5 @@
-setwd("C:/Users/sebastianzapata/Documents (2)/Proyecto_normalizadores/Librerias_bioticas/archivos_csv/Lista final/50_genes")
+
+setwd("") #Establecer ruta de trabajo
 
 lista_archivos <- c("Tobacco_mosaic_vires.csv","Verticillium_dahliae.csv","Bacterial_strain_SA188.csv",
                     "Blumeria_graminis.csv","Botryis_cinerea.csv","Colletotrichum_tofieldiae.csv",
@@ -40,7 +41,7 @@ for (nombre_archivo in names(resultados)) {
 }
 
 #Nueva ubicacion para guardar los resultados
-setwd("C:/Users/sebastianzapata/Documents (2)/Proyecto_normalizadores/Librerias_bioticas/archivos_csv/Lista final/50_genes/Enriquecimiento/aaa")
+setwd("") 
 
 #Guardar archivos en .csv
 for (nombre_archivo in names(resultados)) {
